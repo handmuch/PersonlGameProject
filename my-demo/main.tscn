@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bg0agxbh8au2t"]
+
+[node name="Main" type="Node" unique_id=1497150428]
+
+[node name="Player" type="CharacterBody2D" parent="." unique_id=669646050]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Player" unique_id=1716034016]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=391358564]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Player" unique_id=60629333]
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=331169191]
+
+[node name="Label" type="Label" parent="." unique_id=1879371493]
+anchors_preset = -1
+anchor_left = -0.15200001
+anchor_top = -0.071
+anchor_right = -0.15200001
+anchor_bottom = -0.071
+offset_left = 136.104
+offset_top = 33.008003
+offset_right = 227.104
+offset_bottom = 56.008003
+text = "Hello World"
